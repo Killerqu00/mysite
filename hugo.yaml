@@ -1,3 +1,40 @@
-baseURL: https://example.org/
+baseURL: https://killerqu.com/
 languageCode: en-us
-title: My New Hugo Site
+title: Killerqu00
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: Killerqu00
+  description: "My personal site with stuff."
+  keywords: [Blog, Portfolio, Killerqu, Killerqu00]
+  author: Killerqu00
+  DateFormat: "January 02 2006"
+  defaultTheme: dark
+
+  profileMode:
+    enabled: true
+    title: Killerqu00
+    subtitle: > 
+      Hi! I am Killerqu00, 20yo nerd person.
+      I mostly enjoy videogaming, game modding, game design and maths. Most of my mods are made for Minecraft.
+    imageUrl: https://avatars.githubusercontent.com/u/47712032?v=4
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Posts
+        url: posts
+
+  socialIcons:
+  - name: mastodon
+    url: https://blahaj.zone/
+  - name: github
+    url: https://github.com/Killerqu00
